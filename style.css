@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 3rem;
+  background: var(--light-theme-bg);
+}
+.card-section {
+  margin-bottom: 35px;
+  padding: 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+  height: 22rem;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: var(--light-bg-card);
+  border-radius: 6px;
+  /* border: 2px solid red; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card-header {
+  grid-column: 2/4;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.card-header img {
+  width: 3rem;
+  margin-right: 15px;
+}
+.card-header p {
+  font-size: 1.5rem;
+  color: var(--light-blue-text);
+}
+.card-body {
+  grid-column: 2/4;
+  text-align: center;
+}
+.card-body h1 {
+  font-size: 4rem;
+  color: var(--dark-blue-text);
+  text-align: center;
+}
+.card-body p {
+  font-size: 2rem;
+  color: var(--light-blue-text);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.card-footer img {
+  width: 1.25rem;
+
+  margin-right: 5px;
+}
+
+/************************* Header Style ****************************/
